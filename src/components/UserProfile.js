@@ -12,8 +12,7 @@ import { client } from "../client";
 import MasonryLayout from "./MasonryLayout";
 import Spinner from "./Spinner";
 
-const randomImage =
-  "https://source.unsplash.com/1600x900/?nature,photography,technology";
+const randomImage = "https://source.unsplash.com/1600x900/?birds";
 
 const activeBtnStyles =
   "bg-red-500 text-white font-bold p-2 rounded-full w-20 outline-none";

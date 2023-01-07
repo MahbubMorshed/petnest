@@ -12,7 +12,7 @@ function App() {
     const user = fetchUser();
 
     if (!user) navigate("/login");
-  }, []);
+  });
   return (
     <GoogleOAuthProvider
       // clientId={`${process.env.REACT_PUBLIC_GOOGLE_API_TOKEN}`}
